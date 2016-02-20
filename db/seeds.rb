@@ -4,4 +4,7 @@
 # Examples:
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
+#   Character.create(name: 'Luke', movie: movies.first) 
+
+User.create(name: "Bob", email: "bob@gmail.com")
+Property.create(address: "Somewhere", rooms: 2, bathrooms: 3, price_cents: 1150)
