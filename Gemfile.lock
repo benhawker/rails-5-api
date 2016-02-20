@@ -69,6 +69,7 @@ GEM
     builder (3.2.2)
     byebug (8.2.2)
     concurrent-ruby (1.0.0)
+    dalli (2.7.6)
     diff-lcs (1.2.5)
     erubis (2.7.0)
     ffi (1.9.10)
@@ -149,6 +150,7 @@ PLATFORMS
 DEPENDENCIES
   active_model_serializers (~> 0.10.0.rc1)
   byebug
+  dalli (~> 2.7.4)
   listen (~> 3.0.5)
   pg (~> 0.18)
   puma
