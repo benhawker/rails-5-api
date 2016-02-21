@@ -99,6 +99,10 @@ GEM
       rack
     rack-test (0.6.3)
       rack (>= 1.0)
+    rails-controller-testing (0.1.0)
+      actionpack (~> 5.x)
+      actionview (~> 5.x)
+      activesupport (~> 5.x)
     rails-deprecated_sanitizer (1.0.3)
       activesupport (>= 4.2.0.alpha)
     rails-dom-testing (1.0.7)
@@ -161,6 +165,7 @@ DEPENDENCIES
   puma
   rack-attack
   rails!
+  rails-controller-testing
   rspec-rails
   shoulda
   shoulda-matchers

@@ -29,6 +29,7 @@ group :development, :test do
   gem 'rspec-rails'
   gem 'shoulda'
   gem 'shoulda-matchers'
+  gem 'rails-controller-testing'
 end
 
 group :test do
