@@ -5,6 +5,9 @@ class User < ApplicationRecord
 	##Associations
 	has_many :properties
 
+	##Validations
+	validates_presence_of :name
+
 	private
 
 	def generate_api_key
