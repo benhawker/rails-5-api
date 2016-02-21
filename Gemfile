@@ -12,6 +12,7 @@ gem 'dalli', '~> 2.7.4'
 gem 'rack-attack'
 gem 'bcrypt', '~> 3.1.7'
 gem 'has_secure_token'
+gem 'warden'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 # gem 'jbuilder', '~> 2.0'
 # Use Redis adapter to run Action Cable in production
