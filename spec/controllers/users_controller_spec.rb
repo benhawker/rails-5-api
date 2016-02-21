@@ -6,6 +6,8 @@ RSpec.describe UsersController, type: :controller do
   let(:invalid_attributes) { { name: nil, email: "bob@example.com" } }
   let!(:user) { User.create(valid_attributes) }
 
+  it_behaves_like "api_controller"
+
   describe "GET #index" do
     it "assigns all users as @users" do
       get :index, { format: :json }
